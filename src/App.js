@@ -108,7 +108,7 @@ function App() {
 
   return (
     <div className='flex flex-col items-center justify-center my-10 space-y-5'>
-      <h1 className='text-3xl'>React Spech Recognition App</h1>
+      <h1 className='text-3xl'>React Speech Recognition App</h1>
       <h3 className='text-2xl'>
         Brought to you by:{' '}
         <a
@@ -140,7 +140,7 @@ function App() {
           onClick={handleSubmitTranscriptId}
           className='bg-green-400 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mx-3'
         >
-          Send
+          Transcript
         </button>
       </div>
       {loading ? (
